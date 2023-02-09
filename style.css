@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+h1{
+    margin-top: 50px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    background: #6b456c;
+    color: #dffda7;
+    text-align: center;
+    width: 100%;
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+.adicionar{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btnadc{
+    background: url(/adicionar.png) no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+.btnDeletar{
+    width: 20px;
+    height: 20px;
+    background: url(/lixeira.png) no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 25px;
+    background: rgba(128, 128, 128, 0.315);
+}
+.itemLista {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.295);
+}
+span{
+    width: 500px;
+    margin: 10px;
+}
+.btnDeletar{
+    margin-left: 10px;
+}
+#check{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+.cabecalho{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
